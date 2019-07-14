@@ -1,0 +1,13 @@
+{
+    "name": "into-to-npm",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "learn-browser": "^0.1.17",
+        "moment": ""
+    },
+    "scripts": {
+        "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+    }
+}
